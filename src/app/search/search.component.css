@@ -1,0 +1,39 @@
+/* .col-md-4{
+    width: 100%;
+    background-color: rgb(144, 145, 230);
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+.row{
+    width: 100%;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}*/
+.card-title{
+    color: rgb(37, 39, 172);
+    overflow: hidden;
+    height: 4rem;
+    font-size: 21px;
+}
+
+.card-text{
+    background-color: rgb(76, 207, 164);
+    font-size: 17px;
+    margin: 2rem;
+}
+.col-md-4{
+    align-items: center;
+    width: 100%;
+}
+.card-body{
+width: 100%;
+background-color: rgb(200, 167, 231);
+text-align: center;}
+
+.container-fluid{
+    padding-top: 3.5rem;
+}

@@ -1,0 +1,19 @@
+
+<div class="container-fluid">
+<div class="row" *ngIf="searchdata">
+    
+        <div class="col-md-4" style="background-color:rgb(213, 187, 223)"  *ngFor="let track of searchdata">
+            <div class="card-body">
+                <h2 class="card-title" >{{track.name}}</h2>
+                <img src="{{getUrl(track)}}" class="card-img" alt="Image" style="width:225px;height:225px">
+                <p class="card-text">
+                Id: {{track.listeners}} <br>
+                 {{track.artist}}<br>
+        <app-addwishlist [track]='track'></app-addwishlist>            
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
